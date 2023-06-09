@@ -8,7 +8,9 @@
 
             //IfAndElse.TwoNumAreEqual();
             //IfAndElse.IsEvenOrOdd();
-            IfAndElse.IsEligible();
+            //IfAndElse.IsEligible();
+            //IfAndElse.LargestOfThree();
+            IfAndElse.Eligibility();
         }
     }
 }

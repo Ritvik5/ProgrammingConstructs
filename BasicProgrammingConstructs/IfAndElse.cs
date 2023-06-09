@@ -62,5 +62,79 @@ namespace BasicProgrammingConstructs
             }
 
         }
+
+        public static void LargestOfThree()
+        {
+            Console.WriteLine("To find the largest of three numbers!!!\n");
+
+            Console.WriteLine("Enter the First Number: ");
+            int num1 = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("\nEnter the Second Number: ");
+            int num2 = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("\nEnter the Third Number: ");
+            int num3 = Convert.ToInt32(Console.ReadLine());
+
+            if( num1 > num2 && num1 > num3)
+            {
+                Console.WriteLine("\n" + num1 + " is largest of three!!!");
+            }
+            else if( num2 > num1 && num2 > num3)
+            {
+                Console.WriteLine("\n" + num2 + " is largest of three!!!");
+            }
+            else
+            {
+                Console.WriteLine("\n" + num3 + " is largest of three!!!");
+            }
+        }
+
+        public static void Eligibility()
+        {
+            Console.WriteLine("To Find the eligibility of admission for a professional course!!!\n");
+
+            Console.WriteLine("Enter the marks in maths: ");
+            int math = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("\nEnter the marks in physics: ");
+            int physics = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("\nEnter the marks in chemistry: ");
+            int chemistry = Convert.ToInt32(Console.ReadLine());
+
+            int totalMarks = math + physics + chemistry;
+            Console.WriteLine("\nTotal marks is: " + totalMarks);
+
+            if (math >= 65)
+            {
+                if (physics >= 55)
+                {
+                    if (chemistry >= 50)
+                    {
+                        if(totalMarks>=180 || (math + physics) >= 140)
+                        {
+                            Console.WriteLine("The candidate is eligible for admission!!!");
+                        }
+                        else
+                        {
+                            Console.WriteLine("The candidate is not eligilbe for admission!!!");
+                        }
+                    }
+                    else
+                    {
+                        Console.WriteLine("The candidate is not eligilbe for admission!!!");
+                    }
+                }
+                else
+                {
+                    Console.WriteLine("The candidate is not eligilbe for admission!!!");
+                }
+            }
+            else
+            {
+                Console.WriteLine("The candidate is not eligilbe for admission!!!");
+            }
+        }
     }
 }
