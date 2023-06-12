@@ -17,7 +17,11 @@
             ForLoops obj2 = new ForLoops();
             //obj2.PowerOfTwo();
             //obj2.SumOfSquares();
-            obj2.Factorial();
+            //obj2.Factorial();
+            WhileLoops obj3 = new WhileLoops();
+            //obj3.FlipCoin20times();
+            //obj3.ReverseWord();
+            obj3.SumOfNaturalNumbers();
         }
     }
 }
