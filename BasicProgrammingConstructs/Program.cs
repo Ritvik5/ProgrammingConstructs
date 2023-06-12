@@ -10,7 +10,10 @@
             //IfAndElse.IsEvenOrOdd();
             //IfAndElse.IsEligible();
             //IfAndElse.LargestOfThree();
-            IfAndElse.Eligibility();
+            //IfAndElse.Eligibility();
+            SwitchCase obj = new SwitchCase();
+            //obj.WeekDayName();
+            obj.Calculator();
         }
     }
 }
