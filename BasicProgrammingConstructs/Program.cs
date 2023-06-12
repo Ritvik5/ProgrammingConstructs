@@ -13,7 +13,11 @@
             //IfAndElse.Eligibility();
             SwitchCase obj = new SwitchCase();
             //obj.WeekDayName();
-            obj.Calculator();
+            //obj.Calculator();
+            ForLoops obj2 = new ForLoops();
+            //obj2.PowerOfTwo();
+            //obj2.SumOfSquares();
+            obj2.Factorial();
         }
     }
 }
